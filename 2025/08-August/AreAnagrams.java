@@ -8,7 +8,7 @@ public class AreAnagrams {
         System.out.print("Enter the second String: ");
         String s2 = sc.nextLine();
 
-        boolean isValidAnagram = Solution.areAnagrams(s1,s2);
+        boolean isValidAnagram = AreAnagramsSolution.areAnagrams(s1,s2);
         if(isValidAnagram)  System.out.println("The given two Strings are anagrams");
         else    System.out.println("The given two Strings are not anagrams");
 
@@ -16,7 +16,7 @@ public class AreAnagrams {
     }
 }
 
-class Solution{
+class AreAnagramsSolution{
     static boolean areAnagrams(String s1,String s2){
          if(s1.length() != s2.length())  return false;
         //Now the length of two strings must be equal so there may be a anagram
