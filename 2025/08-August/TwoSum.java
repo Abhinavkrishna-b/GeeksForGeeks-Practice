@@ -1,7 +1,7 @@
 //08-08-25
 import java.util.*;
 
-class Solution{
+class TwoSumSolution{
     public static boolean twoSum(int nums[],int target){
         //Here i m only return the boolen whether the array has the elements that sum to targetSum or not so i didn't used hashMap
         HashSet<Integer> seen = new HashSet<>();
@@ -31,7 +31,7 @@ public class TwoSum{
         System.out.print("Enter the target value: ");
         int targetSum=sc.nextInt();
 
-        boolean isTargetSumPresent = Solution.twoSum(arr,targetSum);
+        boolean isTargetSumPresent = TwoSumSolution.twoSum(arr,targetSum);
 
         if(isTargetSumPresent) System.out.println("The array contains two element whose sum is equal to: "+ targetSum);
         else System.out.println("The array does not contains two element whose sum is equal to: "+ targetSum);
