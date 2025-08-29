@@ -58,4 +58,4 @@ public class KMP_Algorithm {
         sc.close();
     }
 }
-//Time- O(n+m) Space- O(m)
+//Time- O(n+m) Space- O(m) n-length of the haystack, m-length of the needle
